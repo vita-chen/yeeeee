@@ -1,0 +1,8 @@
+
+
+
+1.運行Vue Cli項目：
+npm i bootstrap jquery popper.js
+2.src/main.js 像這樣導入：
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
