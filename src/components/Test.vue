@@ -2,7 +2,7 @@
     <div id="app">
         <h5>{{ msg }} <span class="badge bg-secondary">New</span></h5>
         {{ tt }} :DD
-        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-primary" >Primary</button>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
