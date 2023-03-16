@@ -17,6 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 npm cache clean --force  
 npm install vue-router@4
 npm install vue-cli-plugin-pug
-npm install sass-loader node-sass <注意:node版本需>=14!>
+npm install sass-loader node-sass <注意:node版本需>=14!> 
+不過16 18試了都一直出錯 用14可正常啟動 且解析pug及sass
 
-eslint": "^6.7.2",
+ "eslint": "^7.32.0", >> 這個東西版本不對也會有問題
