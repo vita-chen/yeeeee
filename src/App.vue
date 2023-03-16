@@ -1,10 +1,14 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <router-link v-bind:to="{ path: '/' }">Home</router-link>
+  <router-link v-bind:to="{ path: '/test' }">page2</router-link>
+
+  <router-view></router-view>
+  <HelloWorld msg="Welcome to Your Vue.js App" />
 </template>
 
 <script>
-import HelloWorld from './components/Test.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
@@ -23,6 +27,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 img {
   max-width: 3%;
   height: auto;

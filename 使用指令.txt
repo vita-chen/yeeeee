@@ -1,8 +1,22 @@
 
 
+nvm ls：列出本定端所安裝的 Node.js 環境
+nvm install <version>：安裝特定版本的 Node.js
+nvm use <version>：當前命令列套用特定版本的 Node.js
+nvm uninstall <version>：刪除指定版本的 Node.js
+nvm ls-remote：列出目前可用的遠端 Node.js 版本
+nvm alias default node：設定命令列預設開啟的 Node.js 版本
 
 1.運行Vue Cli項目：
 npm i bootstrap jquery popper.js
 2.src/main.js 像這樣導入：
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
+
+npm cache clean --force  
+npm install vue-router@4
+npm install vue-cli-plugin-pug
+npm install sass-loader node-sass <注意:node版本需>=14!>
+
+eslint": "^6.7.2",
